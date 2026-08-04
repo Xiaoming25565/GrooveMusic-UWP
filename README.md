@@ -1,6 +1,6 @@
 # 简介
 
-Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒体播放器共存,在Windows10中似乎可以因为签名、发布者不同而不会安装Groove音乐
+Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒体播放器（前提是别卸载新媒体播放器。）共存,在Windows10中似乎可以因为签名、发布者不同而不会安装Groove音乐
 
 # 有提示：
 
@@ -8,6 +8,10 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 > 所有内容资源 _(包括但不限于应用、音频、图片等)_ 版权归 Microsoft 所有。  
 > 本软件仅学习交流使用，请勿用于用于商业用途。如有侵权，请发 Issue 提出。  
 > 使用此应用即代表您同意 [Microsoft 软件许可条款](https://go.microsoft.com/fwlink/?LinkID=524989)及 [Microsoft 隐私政策](https://go.microsoft.com/fwlink/?LinkID=521839)。
+
+# 请注意
+
+用户clinasama在2025年虽然已经上传了[他的GrooveMusicUwp的安装包(clinasama/GrooveMusicUWP-)](https://github.com/clinasama/GrooveMusicUWP-)，他这个是共存版，本版本只去更新是不同的后果
 
 # 下载
 
@@ -37,7 +41,11 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 已知问题
 
-18052版本不能在Windows11浅色模式下使用（不会解决该问题，这是老版本UWP应用不适配Windows11风格，请安装20112版本）
+1. 安装好中文语言包后在开始菜单还是Groove Music,Windows11用户可以在开始菜单右键Groove音乐点击应用设置，下拉找到“修复”后点击后即可修复，Windows10目前没有解决方法
+
+# 系统性问题（不是我解决的）
+
+* 18052版本不能在Windows11浅色模式下使用，这是老版本UWP应用不适配Windows11风格，Windows11请安装20112版本
 
 # 解决问题
 
