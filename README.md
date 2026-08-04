@@ -1,6 +1,6 @@
 # 简介
 
-Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒体播放器共存
+Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒体播放器共存,在Windows10中似乎可以因为签名、发布者不同而不会安装Groove音乐
 
 # 有提示：
 
@@ -11,8 +11,13 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 下载
 
-[2019.20112.10111.0的x64 (64位)](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groovex64.appx) | 
-[2019.20112.10111.0的简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groove%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.appx)
+* [20112-x64位安装包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove64.appx) 
+
+* [20112-简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove-zh-hans.appx)
+
+* [18052-x64位安装包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove64.appx)
+
+* [18052-简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove-zh-hans.appx)
 
 # 安装说明
 
@@ -32,7 +37,11 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 已知问题
 
-2019.20112.10111.0的版本在Windows10上无法使用，使用2019.20112.10111.0的版本可以考虑LTSC或者是补全补丁后关闭Windows Update
+未测试发现有问题
+
+# 解决问题
+
+~~2019.20112.10111.0的版本在Windows10上无法使用，使用2019.20112.10111.0的版本可以考虑LTSC或者是补全补丁后关闭Windows Update~~本问题通过修改英文发布者和签名实现成功
 
 # 灵感
 
