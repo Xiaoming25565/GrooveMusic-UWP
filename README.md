@@ -22,9 +22,9 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 2. 在"证书导入向导"中：
 
-- "存储位置"选"本地计算机"，下一步。（需要同意UAC权限请求）
+"存储位置"选"本地计算机"，下一步。（开启UAC时需要同意UAC权限请求）
 
-- 选择"将所有的证书都放入下列存储"，点击"浏览"，选择"受信任的根证书颁发机构"，确定，下一步，继续完成证书导入。
+选择"将所有的证书都放入下列存储"，点击"浏览"，选择"受信任的根证书颁发机构"，确定，下一步，继续完成证书导入。
 
 3. 双击 x64 的 ```appx``` 安装包安装。
 
@@ -34,3 +34,10 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 2019.20112.10111.0的版本在Windows10上无法使用，使用2019.20112.10111.0的版本可以考虑LTSC或者是补全补丁后关闭Windows Update
 
+# 灵感
+
+* [网易云音乐不更新版本（提供了修改方式）](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack)
+
+* [获取UWP的地方](https://store.rg-adguard.net/#google_vignette)
+
+* [原版下载链接(新版媒体播放器)](https://apps.microsoft.com/detail/9WZDNCRFJ3PT?hl=zh-cn&gl=CN&ocid=pdpshare)
