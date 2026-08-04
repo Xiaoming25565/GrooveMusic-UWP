@@ -11,7 +11,9 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 请注意
 
-用户clinasama在2025年虽然已经上传了[他的GrooveMusicUwp的安装包(clinasama/GrooveMusicUWP-)](https://github.com/clinasama/GrooveMusicUWP-)，他这个是共存版，本版本只去更新是不同的后果
+* 用户clinasama在2025年虽然已经上传了[他的GrooveMusicUwp的安装包(clinasama/GrooveMusicUWP-)](https://github.com/clinasama/GrooveMusicUWP-)，他这个是共存版，本版本只去更新,这两个是不同的修改方式
+
+* 18052误添加msix,实际上是Windows.Desktop(x64)10.0.14393.0及以上版本才可以安装（在A.......t.xaml原话是TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested="10.0.17035.0"）
 
 # 下载
 
