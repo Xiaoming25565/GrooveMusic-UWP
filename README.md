@@ -11,8 +11,8 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 下载
 
-[x64 (64位)](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groovex64.appx) | 
-[简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groove%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.appx)
+[2019.20112.10111.0的x64 (64位)](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groovex64.appx) | 
+[2019.20112.10111.0的简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/Groove%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.appx)
 
 # 安装说明
 
@@ -32,5 +32,5 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 已知问题
 
-Windows10上始终无法使用，正在解决
+2019.20112.10111.0的版本在Windows10上无法使用，使用2019.20112.10111.0的版本可以考虑LTSC或者是补全补丁后关闭Windows Update
 
