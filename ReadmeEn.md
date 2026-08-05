@@ -21,11 +21,7 @@ This is an unofficial, non-updated version of Groove Music. On Windows 11 (22H2 
 
 * [20112 x64 installer](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove64.appx)
 
-* [20112 Simplified Chinese language pack](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove-zh-hans.appx)
-
 * [18052 x64 installer](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove64.appx)
-
-* [18052 Simplified Chinese language pack](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove-zh-hans.appx)
 
 # Installation
 
@@ -40,11 +36,21 @@ By default Windows only allows installing apps from the Microsoft Store or trust
 
 3. Double-click the x64 .appx installer to install.
 
-4. For the Simplified Chinese language pack, open the "Groove Simplified Chinese language pack.appx" and choose Reinstall.
+4. For a language pack (if you have one), open the .appx file and choose Reinstall.
 
 # Known issues
 
-1. After installing the Chinese language pack the Start menu may still show "Groove Music". Windows 11 users can right-click Groove Music in Start, choose App settings (screenshot below), scroll down and click "Repair" to fix this issue [...]
+1. After installing or removing a Chinese language pack the Start menu may still display the app name as "Groove Music" instead of the localized name. On Windows 11 you can repair the app to refresh Start menu metadata:
+
+   - Open the Start menu and locate the Groove Music app (you can search "Groove" if needed).
+   - Right-click the app and choose "App settings". If you see "More" first, choose More → App settings.
+   - Scroll down to the "Reset" section.
+   - Click "Repair". This will attempt to fix start menu display and other minor issues without affecting your app data.
+   - If "Repair" does not fix the issue, you can click "Reset" (this will remove app data and return the app to its default state).
+
+   After repairing or resetting, restart the Start menu (sign out/sign in or restart the machine) if the change does not appear immediately.
+
+2. (Other notes) After installing the Chinese language pack the Start menu may still show "Groove Music". Windows 11 users can follow the steps above to repair the app.
 
 ![screenshot](https://github.com/user-attachments/assets/77fcca97-44d5-44b3-9a81-1cdec07777a0)
 
