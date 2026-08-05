@@ -1,6 +1,6 @@
 # Introduction
 
-This is an unofficial, non-updated version of Groove Music. On Windows 11 (22H2 and later) it can coexist with the new Media Player (provided you haven't uninstalled the new Media Player). On Windows 10 it may fail to run due to signature or publisher issues [...]
+This is an unofficial, non-updated version of Groove Music. On Windows 11 (22H2 and later) it can coexist with the new Media Player (provided you haven't uninstalled the new Media Player). On Windows 10 it may fail to run due to signature or publisher issues
 
 ![screenshot](https://github.com/user-attachments/assets/cf18bf14-0bad-4031-a47a-16efaaef18e5)
 
@@ -13,9 +13,9 @@ This is an unofficial, non-updated version of Groove Music. On Windows 11 (22H2 
 
 # Please note
 
-* User clinasama uploaded his GrooveMusicUwp installer in 2025 ([clinasama/GrooveMusicUWP-](https://github.com/clinasama/GrooveMusicUWP-)). That one is a coexistence build; this repository only removes updates and does not include other changes [...]
+* User clinasama uploaded his GrooveMusicUwp installer in 2025 ([clinasama/GrooveMusicUWP-](https://github.com/clinasama/GrooveMusicUWP-)). That one is a coexistence build; this repository only removes updates and does not include other changes 
 
-* I mistakenly added msix for the 18052 build. In fact, the package requires Windows.Desktop (x64) 10.0.14393.0 or newer (the original manifest A.......t.xaml states TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested=...).
+* I mistakenly added msix version for the Groove 18052 build. In fact, the package requires Windows.Desktop (x64) 10.0.14393.0 or newer (the original manifest A.......t.xaml states TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested=...).
 
 # Downloads
 
@@ -27,7 +27,7 @@ This is an unofficial, non-updated version of Groove Music. On Windows 11 (22H2 
 
 By default Windows only allows installing apps from the Microsoft Store or trusted developer-signed packages, so you need to install the certificate first.
 
-1. Right-click the x64 installer or language pack (.appx), open Properties, go to the "Digital Signatures" tab. Double-click the signature entry named "~~强力花调皮~~ Xiaoming25565". In the "Digital Signature Details" dialog [...]
+1. Right-click the x64 installer(.appx), open Properties, go to the "Digital Signatures" tab. Double-click the signature entry named " Xiaoming25565". In the "Digital Signature Details" dialog
 
 2. In the Certificate Import Wizard:
 
@@ -36,25 +36,9 @@ By default Windows only allows installing apps from the Microsoft Store or trust
 
 3. Double-click the x64 .appx installer to install.
 
-4. For a language pack (if you have one), open the .appx file and choose Reinstall.
-
 # Known issues
 
-1. After installing or removing a Chinese language pack the Start menu may still display the app name as "Groove Music" instead of the localized name. On Windows 11 you can repair the app to refresh Start menu metadata:
-
-   - Open the Start menu and locate the Groove Music app (you can search "Groove" if needed).
-   - Right-click the app and choose "App settings". If you see "More" first, choose More → App settings.
-   - Scroll down to the "Reset" section.
-   - Click "Repair". This will attempt to fix start menu display and other minor issues without affecting your app data.
-   - If "Repair" does not fix the issue, you can click "Reset" (this will remove app data and return the app to its default state).
-
-   After repairing or resetting, restart the Start menu (sign out/sign in or restart the machine) if the change does not appear immediately.
-
-2. (Other notes) After installing the Chinese language pack the Start menu may still show "Groove Music". Windows 11 users can follow the steps above to repair the app.
-
-![screenshot](https://github.com/user-attachments/assets/77fcca97-44d5-44b3-9a81-1cdec07777a0)
-
-![screenshot](https://github.com/user-attachments/assets/de26cb8f-2dbb-4fd4-8353-a4a3c368f9df)
+None(26/8/5)
 
 # System-level issues (not fixed by me)
 
@@ -66,7 +50,7 @@ By default Windows only allows installing apps from the Microsoft Store or trust
 
 # Fixes
 
-~The 2019.20112.10111.0 version could not run on Windows 10. Users of that version might consider LTSC or installing missing patches and disabling Windows Update.~ This issue was resolved by modifying the English publisher and signature [...]
+~The 2019.20112.10111.0 version could not run on Windows 10. Users of that version might consider LTSC or installing missing patches and disabling Windows Update.~ This issue was resolved by modifying the English publisher and signature
 
 # Inspiration
 
