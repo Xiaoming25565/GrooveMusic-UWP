@@ -1,3 +1,4 @@
+中文 | [English](https://github.com/Xiaoming25565/GrooveMusic-UWP/blob/master/ReadmeEn.md)
 # 简介
 
 Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒体播放器（前提是别卸载新媒体播放器。）共存,在Windows10中似乎可以因为签名、发布者不同而不会安装Groove音乐
@@ -47,12 +48,10 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 # 已知问题
 
 1. 安装好中文语言包后在开始菜单还是Groove Music,Windows11用户可以在开始菜单右键Groove音乐点击应用设置（下图），下拉找到“修复”后点击后即可修复，Windows10目前没有解决方法
-
-<img width="732" height="140" alt="屏幕截图 2026-08-05 092035" src="https://github.com/user-attachments/assets/77fcca97-44d5-44b3-9a81-1cdec07777a0" />
-
-<img width="840" height="169" alt="image" src="https://github.com/user-attachments/assets/de26cb8f-2dbb-4fd4-8353-a4a3c368f9df" />
-
-
+* 打开开始菜单，找到Groove Music（如果需要可以搜索“Groove”）。
+* 右键点击应用，选择“应用设置”。
+* 往下滚动到“重置”部分。
+* 点击“修复”。这会尝试修复开始菜单显示语言，可能不会不影响你的应用数据。
 
 # 系统性问题（不是我解决的）
 
