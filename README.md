@@ -21,7 +21,9 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 
 # 下载
 
-* [20112-x64位安装包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove64.appx) 
+* [20112-x64位安装包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove64.appx)
+
+* [20112-磁贴修改安装包，提取码是c3q5](https://wwbud.lanzouc.com/iVvmR4gyzq1c) 
 
 * [20112-简体中文语言包](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove-zh-hans.appx)
 
@@ -52,6 +54,9 @@ Groove音乐的不更新版本，在Windows11 22H2及以上版本可以和新媒
 * 右键点击应用，选择“应用设置”。
 * 往下滚动到“重置”部分。
 * 点击“修复”。这会尝试修复开始菜单显示语言，可能不会不影响你的应用数据。
+
+2. Windows 10 DEV 21390/Windows 11 使用explorer patcher的开始菜的Groove磁贴不更新
+* 下载[20112-磁贴修改安装包，提取码是c3q5](https://wwbud.lanzouc.com/iVvmR4gyzq1c) 即可
 
 # 系统性问题（不是我解决的）
 
