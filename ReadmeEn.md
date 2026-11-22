@@ -25,11 +25,7 @@ This is a non-updating Groove Music build. On Windows 11 22H2 and later, it can 
 
 * [20112 Start tile-modified installer, extraction code: `c3q5`](https://wwbud.lanzouc.com/iVvmR4gyzq1c)
 
-* [20112 Simplified Chinese language package](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/20112Groove-zh-hans.appx)
-
 * [18052 x64 installer](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove64.appx)
-
-* [18052 Simplified Chinese language package](https://raw.githubusercontent.com/Xiaoming25565/GrooveMusic-UWP/refs/heads/master/18052Groove-zh-hans.appx)
 
 # Installation
 
